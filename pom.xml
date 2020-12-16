@@ -7,6 +7,15 @@
     <groupId>org.example</groupId>
     <artifactId>TestPipeline</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>jar</packaging>
+    
+    <properties>
+        <maven.min.version>3.3.9</maven.min.version>
+        <buildinfo.version>2.19.1</buildinfo.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <skipITs>true</skipITs>
+    </properties>
 
 </project>
